@@ -1,0 +1,245 @@
+:root {
+  --border_radius: 20px;
+  --padding: 15px;
+  --margin: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  font-family: segoe ui;
+  text-align: center;
+  background: #FDB7B9;
+  color: #000000;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #BADFD7;
+
+}
+
+footer nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #BADFD7;
+  color: #894b4d;
+}
+
+nav a {
+  color: #13293d;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Segoe UI;
+}
+
+/*main is a container contains aside and the card_Container */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: #dfd4d1;
+
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  background-color: #ffdcdd;
+  padding: var(--padding);
+  align-items: center;
+  justify-content: flex-start;
+}
+
+aside img {
+  border-radius: 200px;
+  width: 300px;
+  height: fit-content;
+}
+
+aside img:hover {
+  border-radius: 100px;
+  border-style: outset;
+
+}
+
+aside nav {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  /* color: #60BFC1; */
+
+}
+
+nav a {
+  color: #137a7c;
+
+}
+
+.main-container {
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: var(--padding);
+  
+}
+
+/*======================================================*/
+
+.IamShaimaaCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  margin: var(--margin);
+  padding: var(--padding);
+  
+
+  border-style: outset;
+  border-width: 5px;
+
+}
+
+
+
+.IamShaimaaCard h1 {
+  color: #4ba793;
+  font-family: lucida calligraphy;
+  font-style: oblique;
+  font-size: 60px;
+  line-height: 100px;
+  font-weight: normal;
+  margin: 30px;
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+.IamShaimaaCard h2 {
+  color: #81c7b8;
+  font-family: segoe ui;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  margin: 40px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+/*============Personal Details Section ==========================================*/
+.PersonalCard {
+  display: flex;
+  flex-direction: column;
+  
+  padding: var(--padding);
+  
+  margin: var(--margin);
+  border-style: outset;
+  border-width: 5px;
+}
+
+.personalCard_table {
+  display: flex;
+ 
+  padding: var(--padding);
+  margin: var(--margin);
+
+}
+
+.PersonalCard table td {
+  font-family: 'Segoe UI';
+  padding: var(--padding);
+  padding: var(--padding);
+  
+  margin: 15x;
+
+}
+
+/* ======== Working Experience Section ==================================================== */
+/*=======working card  contains header and applications container   */
+.WorkingCard {
+  display: flex;
+  flex-direction: column;
+
+  padding: var(--padding);  
+  margin: var(--margin);
+
+  border-style: outset;
+  border-width: 5px;
+}
+
+/* ======== applications container contains many application cards========== */
+.applications_container {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+  align-items: center;
+  padding: var(--padding);  
+  margin: var(--margin);
+
+}
+
+.application_card {
+
+  flex: 0 0 300px;
+
+  padding: var(--padding);  
+  margin: var(--margin);
+
+  border-style: outset;
+  border-width: 5px;
+  border-radius: var(--border_radius);
+}
+
+.application_card img {
+  width: 100%;
+  height: auto;
+}
+
+.application_card:hover {
+
+  flex: 0 0 350px;
+
+}
+
+@media screen and (max-width: 992px) {
+  main,
+  nav {
+
+    flex-direction: column;
+  }
+ 
+  
+}
+@media screen and (max-width: 768px) {
+
+  main,
+  nav {
+
+    flex-direction: column;
+  }
+  
+
+  /* header, aside, footer {
+    flex: 0 0 50%;
+    max-width: 50%;
+  } */
+
+}
