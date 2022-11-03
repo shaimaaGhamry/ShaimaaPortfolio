@@ -58,14 +58,15 @@ aside {
   flex: 1;
   background-color: #ffdcdd;
   padding: var(--padding);
+ 
   align-items: center;
-  justify-content: flex-start;
 }
+
 
 aside img {
   border-radius: 200px;
-  width: 300px;
-  height: fit-content;
+  width: 200px;
+  
 }
 
 aside img:hover {
@@ -202,7 +203,7 @@ nav a {
 
 .application_card {
 
-  flex: 0 0 300px;
+  flex: 0 0 200px;
 
   padding: var(--padding);  
   margin: var(--margin);
@@ -225,26 +226,26 @@ nav a {
 /*======================================================*/
 
 @media screen and (max-width: 992px) {
+
   main,
   nav {
-
     flex-direction: column;
   }
- 
-  
+
+  main {
+    background-color: #d5bfb1;
+  }
 }
+
 @media screen and (max-width: 768px) {
 
   main,
   nav {
-
     flex-direction: column;
   }
-  
 
-  /* header, aside, footer {
-    flex: 0 0 50%;
-    max-width: 50%;
-  } */
+  main {
+    background-color: #ac988b;
+  }
 
 }
