@@ -47,7 +47,7 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   flex-grow: 1;
-  background-color: #dfd4d1;
+  background-color: #e9e6e4;
 
 }
 
@@ -86,6 +86,10 @@ nav a {
   color: #137a7c;
 
 }
+/*===== main container contains 3  cards================================================*/
+/*===========contains IamShaimaa Card, ===========================================*/
+/*============contains PersonalDetails Card,  ==========================================*/
+/*===========and contains the Working Card of all the applications===========================================*/
 
 .main-container {
   flex: 4;
@@ -99,7 +103,7 @@ nav a {
   
 }
 
-/*======================================================*/
+/*=============First Card: IamShaimaa Card=========================================*/
 
 .IamShaimaaCard {
   display: flex;
@@ -142,7 +146,7 @@ nav a {
   text-shadow: 0 1px 1px #fff;
 }
 
-/*============Personal Details Section ==========================================*/
+/*============Second Card: PersonalDetails Card ==========================================*/
 .PersonalCard {
   display: flex;
   flex-direction: column;
@@ -171,7 +175,7 @@ nav a {
 
 }
 
-/* ======== Working Experience Section ==================================================== */
+/* ======== Third Card: Working Experience card ==================================================== */
 /*=======working card  contains header and applications container   */
 .WorkingCard {
   display: flex;
@@ -218,6 +222,7 @@ nav a {
   flex: 0 0 350px;
 
 }
+/*======================================================*/
 
 @media screen and (max-width: 992px) {
   main,
