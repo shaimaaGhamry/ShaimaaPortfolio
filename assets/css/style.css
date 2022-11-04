@@ -4,9 +4,7 @@
   --margin: 15px;
 }
 
-/* * {
-  box-sizing: border-box;
-} */
+
 
 html {
   scroll-behavior: smooth;
@@ -238,7 +236,6 @@ nav a {
     flex-direction: column;
   }
 
-  
   
 }
 
