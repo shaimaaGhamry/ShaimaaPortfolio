@@ -1,7 +1,7 @@
 # ShaimaaPortfolio
 
 # The deployed URL:
-https://github.com/shaimaaGhamry/ShaimaaPortfolio.git
+https://shaimaaghamry.github.io/ShaimaaPortfolio/
 
 ## Description
 In this challenge you ll find my portfolio in which i mentioned my objective of this portfolio,
